@@ -1,0 +1,75 @@
+.footer {
+  background: transparent;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  max-width: 600px; /* diminuído pra ficar menorzinho */
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(158, 28, 187, 0.088);
+  border-radius: 25px;
+  padding: 1.5rem 1rem; /* padding reduzido */
+  box-shadow: 0 4px 20px rgba(222, 13, 245, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.footer-text {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 0.8rem;
+  font-weight: 400;
+}
+
+.heart {
+  color: #ff6b81;
+  display: inline-block;
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(1.1);
+  }
+  20%,
+  40% {
+    transform: scale(1);
+  }
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ========== RESPONSIVIDADE ========== */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .footer-content {
+    max-width: 90%;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .footer-text {
+    font-size: 0.85rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+}

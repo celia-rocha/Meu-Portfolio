@@ -1,0 +1,163 @@
+.contact-section {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ========== HEADER ========== */
+.contact-header {
+  margin-bottom: 4rem;
+}
+
+.contact-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ff66ff;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 20px rgba(255, 102, 255, 0.3);
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ========== CARD ESCURO ========== */
+.contact-card {
+  background: rgba(30, 30, 40, 0.675);
+  border-radius: 30px;
+  padding: 2.5rem 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  text-align: left; /* IMPORTANTE: Alinha tudo à esquerda */
+}
+
+.card-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #b794f6;
+  margin-bottom: 2.5rem;
+}
+
+/* ========== ITENS DE CONTATO ========== */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateX(5px);
+}
+
+/* ========== CÍRCULO DO ÍCONE ========== */
+.contact-icon-box {
+  width: 60px;
+  height: 60px;
+  min-width: 60px; /* IMPORTANTE: Evita que o círculo encolha */
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ba40db, #cc33ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(255, 102, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.contact-icon {
+  color: #1e1e28;
+  stroke-width: 2.5;
+}
+.contact-icon-box svg {
+  color: #1e1e28 !important;
+}
+.contact-item:hover .contact-icon-box {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(158, 14, 158, 0.6);
+}
+
+/* ========== TEXTO DAS INFORMAÇÕES ========== */
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.info-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.info-value {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  margin: 0;
+}
+
+/* ========== RESPONSIVIDADE ========== */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-title {
+    font-size: 1.7rem;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
+
+  .contact-card {
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-item {
+    gap: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-icon-box {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+  }
+
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .info-label {
+    font-size: 1rem;
+  }
+
+  .info-value {
+    font-size: 0.9rem;
+  }
+}

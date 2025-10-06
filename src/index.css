@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(220deg, #320b40 0%, rgb(85, 12, 94) 100%);
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+
+  /* garante que o gradiente vai cobrir a página inteira */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compensa a altura do Header fixo */
+section[id] {
+  scroll-margin-top: 100px; /* Ajuste esse valor conforme a altura do seu header */
+}

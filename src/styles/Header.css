@@ -1,0 +1,72 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  color: rgb(214, 66, 255);
+  z-index: 1000;
+  background-color: rgba(58, 8, 87, 0.423);
+  backdrop-filter: blur(20px);
+}
+
+.logo-container h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  color: #ff00ffe0;
+  padding-left: 50px;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 0.9rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 6500;
+  padding: 0.6rem 1.9rem; /* Ajustei o padding para o padrão desktop */
+  border-radius: 20px;
+  transition: all 0.3s ease; /* Transição para um efeito suave */
+  cursor: pointer;
+
+  background: transparent;
+  color: rgba(255, 255, 255, 0.823);
+  border: 1px solid rgba(255, 255, 255, 0.137);
+}
+
+.nav-links a:hover {
+  /* Estilo no hover: adiciona o gradiente e remove a borda */
+  background: linear-gradient(90deg, #ff00ff87, #892be2cf);
+  border: 1px solid transparent;
+}
+
+/* --- Código para Mobile --- */
+/* Media query para telas com no máximo 768px de largura */
+@media (max-width: 768px) {
+  .header {
+    /* Mantenha o flex-direction: row, apenas ajuste o padding */
+    padding: 1.6rem 1rem;
+  }
+
+  .logo-container h1 {
+    font-size: 1rem; /* Diminui o tamanho do título */
+    padding-left: 1px;
+  }
+
+  .nav-links ul {
+    gap: 0.4rem; /* Diminui o espaço entre os botões */
+  }
+
+  .nav-links a {
+    font-size: 0.7rem; /* Diminui o tamanho da fonte dos botões */
+    padding: 0.5rem 0.5rem; /* Diminui o padding dos botões para que caibam */
+    font-weight: 600;
+  }
+}

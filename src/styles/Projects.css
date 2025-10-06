@@ -1,0 +1,96 @@
+.projects-section {
+  padding: 80px 0;
+  color: #ffff;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  color: #ff00fff6;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.project-card {
+  /* Cor de fundo dos cards: Roxo mais fechado e escuro */
+  background-color: #31004aaa; /* Um roxo escuro para contraste no gradiente */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+
+  /* Box-shadow para criar o 'glow' e o efeito de borda embaçada. */
+  box-shadow: 0 0 10px rgba(180, 50, 255, 0.2),
+    /* Sombra externa sutil para embaçamento */ inset 0 0 15px
+      rgba(180, 50, 255, 0.15); /* Sombra interna para profundidade */
+
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  /* Linha sutil de borda roxa para replicar a divisão */
+  border: 1px solid rgba(150, 70, 255, 0.4);
+
+  .project-card:hover {
+    transform: translateY(-3px);
+    /* Aumentamos o box-shadow externo para o efeito de "brilho ao redor" */
+    box-shadow: 0 0 25px rgba(180, 50, 255, 0.8),
+      /* Glow/embaçamento mais forte */ inset 0 0 20px rgba(180, 50, 255, 0.3); /* Brilho interno */
+  }
+}
+
+.project-title {
+  font-size: 1.4rem;
+  color: #ff00ffe0;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.3;
+  color: #e6e3e3;
+}
+
+/* 3. BOTÃO (Ver Projeto)                    */
+/* ========================================= */
+
+.project-button {
+  display: inline-block;
+  padding: 8px 25px;
+  background: linear-gradient(90deg, #ff00ff, #8a2be2);
+  color: #000000;
+  border: 2px solid #000000b7;
+
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 0 15px;
+  }
+
+  .project-card {
+    padding: 15px 15px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    padding-left: 25px;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+    margin-top: 0px;
+  }
+  .project-description {
+    font-size: 0.9rem;
+  }
+}
