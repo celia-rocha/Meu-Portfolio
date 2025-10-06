@@ -65,6 +65,7 @@
   .about-section {
     width: 100%; /* Mantém a largura de 90% em telas menores */
     padding: 2rem 1rem; /* Reduz o padding lateral em telas menores */
+    margin-top: 4.5rem;
   }
   .about-section h2 {
     font-size: 1.9rem;
