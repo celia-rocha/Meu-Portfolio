@@ -1,6 +1,5 @@
-import React from "react";
 import "../styles/SocialLinks.css";
-import { Linkedin, Github, Send } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 const SocialLinks: React.FC = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/HeroSection.css";
 import profile from "../assets/minha-foto.jpeg";
 

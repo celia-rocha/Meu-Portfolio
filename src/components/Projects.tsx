@@ -1,6 +1,5 @@
 // Projects.tsx
 
-import React from "react";
 import "../styles/Projects.css";
 import type { Project } from "../data/projetcsData";
 import projectsData from "../data/projetcsData";

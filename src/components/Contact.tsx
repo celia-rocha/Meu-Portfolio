@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Contact.css";
 import { Mail, MapPin, Phone } from "lucide-react";
 
