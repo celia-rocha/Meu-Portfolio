@@ -88,9 +88,11 @@
 
   .project-title {
     font-size: 1.3rem;
-    margin-top: 0px;
   }
   .project-description {
     font-size: 0.9rem;
+  }
+  .projects-section {
+    padding: 60px 0;
   }
 }

@@ -4,8 +4,6 @@ import profile from "../assets/minha-foto.jpeg";
 const HeroSection = () => {
   return (
     <section id="home" className="hero-section">
-      {" "}
-      {/* ← ADICIONE o id="home" */}
       <div className="profile-container">
         <img
           src={profile}
@@ -24,8 +22,12 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="cta-buttons">
-        <button className="btn-primary">Ver Meus Projetos</button>
-        <button className="btn-secondary">Sobre Mim</button>
+        <a href="#projetos">
+          <button className="btn-primary">Ver Meus Projetos</button>
+        </a>
+        <a href="#sobre">
+          <button className="btn-secondary">Sobre Mim</button>
+        </a>
       </div>
     </section>
   );

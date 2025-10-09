@@ -15,8 +15,8 @@ const About = () => {
               Desenvolvedora Frontend
             </span>{" "}
             {""}
-            apaixonada por criar experiências digitais incríveis. Há dois anos
-            me dedico à criação de sites e aplicações web, sempre buscando
+            apaixonada por criar experiências digitais incríveis. Há um ano e
+            meio me dedico à criação de sites e aplicações web, sempre buscando
             entregar interfaces que sejam não apenas bonitas, mas também
             funcionais e acessíveis.
           </p>

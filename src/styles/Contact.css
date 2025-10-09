@@ -115,20 +115,24 @@
 /* ========== RESPONSIVIDADE ========== */
 @media (max-width: 768px) {
   .contact-section {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.1rem;
+  }
+  .contact-header {
+    margin-bottom: 2rem;
   }
 
   .contact-title {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .contact-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .contact-card {
     padding: 2rem 1.5rem;
     border-radius: 20px;
+    margin-bottom: 0rem;
   }
 
   .card-title {

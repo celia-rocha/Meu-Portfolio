@@ -32,15 +32,11 @@ h1 {
 }
 
 .highlight {
-  background: linear-gradient(
-    90deg,
-    #ff00ff,
-    #8a2be2
-  ); /* gradiente rosa→roxo no fundo */
-  -webkit-background-clip: text; /* recorta o gradiente no formato do texto (Safari/Chrome) */
-  -webkit-text-fill-color: transparent; /* texto fica transparente p/ mostrar gradiente */
-  background-clip: text; /* recorte padrão */
-  color: transparent; /* garante que só o gradiente apareça */
+  background: linear-gradient(90deg, #ff00ff, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .description {
@@ -58,12 +54,16 @@ h1 {
   justify-content: center;
 }
 
+/* ADICIONE ISSO AQUI - ESTILO PARA OS LINKS */
+.cta-buttons a {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .btn-primary,
 .btn-secondary {
   font-size: 0.9rem;
-  padding: 0.1rem 2.5rem 0.1rem;
   border-radius: 15px;
-
   cursor: pointer;
   border: none;
   transition: transform 0.2s ease;
@@ -72,14 +72,18 @@ h1 {
 .btn-primary {
   background: linear-gradient(90deg, #f01cf0cf);
   color: #000000;
-  padding: 0.9rem;
-  border: none;
+  padding: 0.9rem 1.8rem;
 }
 
 .btn-secondary {
   background-color: #28282c;
   color: rgba(255, 255, 255, 0.813);
-  border: none;
+  padding: 0.9rem 2.7rem;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -101,16 +105,16 @@ h1 {
   }
 
   .cta-buttons {
-    flex-wrap: nowrap; /* impede que um vá pra baixo do outro */
-    gap: 1rem; /* espaço menor entre eles */
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    padding: 0.7rem 1.2rem 0.7rem;
-    font-size: 15px;
+    flex-wrap: nowrap;
+    gap: 1rem;
   }
   .btn-primary {
-    padding: 0.3rem 0.7rem 0.3rem;
+    padding: 0.7rem 1rem;
+    font-size: 15px;
+  }
+
+  .btn-secondary {
+    padding: 0.7rem 1.6rem;
+    font-size: 15px;
   }
 }

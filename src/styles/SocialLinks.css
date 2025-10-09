@@ -98,12 +98,13 @@
 /* ========== RESPONSIVIDADE ========== */
 @media (max-width: 768px) {
   .social-section {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.1rem;
   }
 
   .social-card {
     padding: 1rem 1.5rem;
     border-radius: 20px;
+    margin-top: 1px;
   }
 
   .social-title {

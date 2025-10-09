@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Ajuste esse valor conforme a altura do seu header */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
