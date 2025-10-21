@@ -8,6 +8,6 @@ Este portfólio é meu principal projeto, mostrando minha jornada como desenvolv
 	•	Contato: para colaborações.
   
   🛠️ Tecnologias:
-HTML, CSS, JavaScript, React, Styled Components, Vite, SwiperJS
+HTML, CSS, TypeScript, React, Styled Components e Vite
 
 https://celia-rocha.github.io/Meu-Portfolio/
