@@ -39,10 +39,11 @@ const About = () => {
             <span className="skill-tag">CSS3</span>
             <span className="skill-tag">JavaScript</span>
             <span className="skill-tag">React</span>
-            <span className="skill-tag">Figma</span>
-            <span className="skill-tag">Next.js</span>
-            <span className="skill-tag">Responsive </span>
             <span className="skill-tag">TypeScript</span>
+
+            <span className="skill-tag">Next.js</span>
+            <span className="skill-tag">Figma</span>
+            <span className="skill-tag">Responsive </span>
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
 
         {/* WHATSAPP */}
         <a
-          href="https://wa.me/5596984126944"
+          href="https://web.whatsapp.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-item"
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
           </div>
           <div className="contact-info">
             <h3 className="info-label">Telefone</h3>
-            <p className="info-value">+55 (96) 984126944</p>
+            <p className="info-value">+55 (47) 988696196</p>
           </div>
         </a>
 

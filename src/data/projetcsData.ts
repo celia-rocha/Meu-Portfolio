@@ -11,23 +11,23 @@ const projects: Project[] = [
     title: "Loja Virtual - Tech Shop 📱 ",
     description:
       "Projeto de página web para uma loja de eletrônicos, feito com HTML5 e CSS3, focado em design limpo e responsivo.",
-    link: " https://celia-c11.github.io/Loja-Eletronica/",
+    link: " https://celia-rocha.github.io/Loja-Eletronica/",
   },
 
   {
     id: 2,
-    title: "Café Grão Dourado ☕️ ",
+    title: " Tela de Login 🔐",
     description:
-      "Site interativo de cafeteria com cardápio online, carrinho dinâmico, opção de finalizar compra e QR Code de pagamento, feito em HTML, CSS e JavaScript.",
-    link: "https://celia-c11.github.io/Cafeteria-Virtual/",
+      "Protótipo visual de interface de autenticação, desenvolvido em React e TypeScript, simulando funcionalidades de login de forma interativa e responsiva.",
+    link: "https://celia-rocha.github.io/Tela-Login/",
   },
 
   {
     id: 3,
     title: "Clone do WhatsApp Web 💬 ",
     description:
-      "Projeto de interface estática inspirado no WhatsApp Web, criado com HTML e CSS. A proposta foi treinar a construção de um layout moderno e organizado, simulando a experiência visual do app.",
-    link: "https://celia-c11.github.io/WhatsApp-site/",
+      "Interface estática inspirada no WhatsApp Web, criada com HTML e CSS para simular a experiência visual do app.",
+    link: "https://celia-rocha.github.io/WhatsApp-site/",
   },
 ];
 
