@@ -22,11 +22,11 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="cta-buttons">
-        <a href="#projetos">
-          <button className="btn-primary">Ver Meus Projetos</button>
-        </a>
         <a href="#sobre">
           <button className="btn-secondary">Sobre Mim</button>
+        </a>
+        <a href="#projetos">
+          <button className="btn-primary">Ver Meus Projetos</button>
         </a>
       </div>
     </section>

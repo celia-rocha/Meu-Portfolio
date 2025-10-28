@@ -12,24 +12,28 @@ const About = () => {
           <p>
             Tenho 24 anos e sou {""}
             <span style={{ color: "#f01cf08d" }}>
-              Desenvolvedora Frontend
+              Desenvolvedora Front-End.
             </span>{" "}
             {""}
-            apaixonada por criar experiências digitais incríveis. Há um ano e
-            meio me dedico à criação de sites e aplicações web, sempre buscando
-            entregar interfaces que sejam não apenas bonitas, mas também
-            funcionais e acessíveis.
+            <br />
+            Há um ano e meio atuo na criação de interfaces modernas e
+            responsivas para web, com foco em acessibilidade, performance e uma
+            boa experiência para o usuário. Atualmente, estou ampliando meus
+            conhecimentos em React e explorando práticas de desenvolvimento que
+            tornem minhas aplicações cada vez mais dinâmicas e eficientes.
           </p>
-          Tenho interesse em transformar ideias em projetos práticos e
-          agradáveis de usar, sempre buscando evoluir e encarar novos desafios.
-          No momento, estou focada em aprimorar minhas habilidades em React e
-          explorando outras ferramentas que possam tornar minhas criações mais
-          dinâmicas e eficientes.
+          Curso Redes de Computadores (em andamento), formação que iniciei antes
+          de direcionar minha carreira para o Desenvolvimento Front-End, área
+          pela qual me identifiquei e na qual sigo evoluindo constantemente
+          através de novos projetos e desafios.
           <p>
-            Minha verdadeira paixão está no
-            <span style={{ color: "#f01cf08d" }}> {""}web design</span>, onde
-            posso unir criatividade e código para criar experiências visuais
-            impactantes. ✨
+            Minha verdadeira paixão está em
+            <span style={{ color: "#f01cf08d" }}>
+              {" "}
+              {""}Desenvolver Experiências Digitais
+            </span>
+            , onde posso unir criatividade e código para criar soluções
+            funcionais e visuais.
           </p>
         </div>
         <div className="about-skills">
