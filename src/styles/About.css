@@ -6,6 +6,7 @@
   text-align: center;
   background: #1c1a2eae;
   box-sizing: border-box; /* inclui padding na altura total */
+  margin-top: 4rem;
 }
 
 .about-section h2 {
@@ -13,6 +14,7 @@
   font-weight: 700;
   margin-bottom: 3rem;
   color: #f01cf0c3;
+  text-shadow: 0 0 20px rgba(168, 27, 168, 0.522);
 }
 
 .about-content {
@@ -65,7 +67,7 @@
   .about-section {
     width: 100%; /* Mantém a largura de 90% em telas menores */
     padding: 2rem 1rem; /* Reduz o padding lateral em telas menores */
-    margin-top: 4.5rem;
+    margin-top: 0rem;
   }
   .about-section h2 {
     font-size: 1.9rem;
