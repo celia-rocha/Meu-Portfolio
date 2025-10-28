@@ -1,4 +1,4 @@
-# Sobre meu Portfólio 💖 👩🏻‍💻 🌟 
+# Sobre Meu Portfólio 💖 👩🏻‍💻 🌟 
 
 Este portfólio é meu principal projeto, mostrando minha jornada como desenvolvedora e meu cuidado com cada detalhe. Aqui você encontra:
 
