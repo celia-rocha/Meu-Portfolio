@@ -8,15 +8,16 @@
   padding: 1.5rem 3rem;
   color: rgb(214, 66, 255);
   z-index: 1000;
-  background-color: rgba(58, 8, 87, 0.423);
+  background-color: rgba(67, 21, 77, 0.763);
   backdrop-filter: blur(20px);
 }
 
 .logo-container h1 {
   font-size: 1.7rem;
   font-weight: 700;
+  font-family: Comic Sans MS, Comic Sans, cursive;
   margin: 0;
-  color: #ff00ffe0;
+  color: #fcf8ff;
   padding-left: 50px;
 }
 
@@ -30,43 +31,42 @@
 
 .nav-links a {
   text-decoration: none;
-  font-weight: 6500;
-  padding: 0.6rem 2rem; /* Ajustei o padding para o padrão desktop */
+  font-weight: 600;
+  padding: 0.6rem 2rem;
   border-radius: 20px;
-  transition: all 0.3s ease; /* Transição para um efeito suave */
+  transition: all 0.3s ease;
   cursor: pointer;
-
   background: transparent;
   color: rgba(255, 255, 255, 0.823);
   border: 1px solid rgba(255, 255, 255, 0.137);
 }
 
 .nav-links a:hover {
-  /* Estilo no hover: adiciona o gradiente e remove a borda */
-  background: linear-gradient(90deg, #ff00ff87, #892be2cf);
-  border: 1px solid transparent;
+  border: 1x solid #ff00ff30;
+  background: rgba(255, 0, 255, 0.1);
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
 /* --- Código para Mobile --- */
 /* Media query para telas com no máximo 768px de largura */
 @media (max-width: 768px) {
   .header {
-    /* Mantenha o flex-direction: row, apenas ajuste o padding */
-    padding: 1.6rem 1rem;
+    padding: 1.4rem 1rem;
   }
 
   .logo-container h1 {
-    font-size: 1.1rem; /* Diminui o tamanho do título */
+    font-size: 1.1rem;
     padding-left: 1px;
   }
 
   .nav-links ul {
-    gap: 1rem; /* Diminui o espaço entre os botões */
+    gap: 1rem;
   }
 
   .nav-links a {
-    font-size: 0.7rem; /* Diminui o tamanho da fonte dos botões */
-    padding: 0.6rem 0.8rem; /* Diminui o padding dos botões para que caibam */
+    font-size: 0.7rem;
+    padding: 0.6rem 0.8rem;
     font-weight: 600;
   }
 }

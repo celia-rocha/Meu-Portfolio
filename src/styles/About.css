@@ -1,6 +1,6 @@
 .about-section {
   width: 100%;
-  min-height: calc(70vh - 4rem); /* subtrai o padding vertical */
+  min-height: calc(54vh - 4rem); /* subtrai o padding vertical */
   padding: 2rem 3rem;
   margin: 0;
   text-align: center;
@@ -12,9 +12,12 @@
 .about-section h2 {
   font-size: 2.3rem;
   font-weight: 700;
-  margin-bottom: 3rem;
-  color: #f01cf0c3;
-  text-shadow: 0 0 20px rgba(168, 27, 168, 0.522);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: #ffffff;
+
+  padding-right: 50rem;
+  white-space: nowrap; /* evita quebra de linha */
 }
 
 .about-content {
@@ -34,14 +37,14 @@
 }
 
 .about-skills {
-  flex: 1;
+  flex: 0.5;
 }
 
 .about-skills h3 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #ff00ff85;
+  color: #ffffff;
   padding-left: 60px;
 }
 
@@ -55,12 +58,21 @@
 
 .skill-tag {
   font-size: 15px;
-  background-color: #9d59b12d;
-  color: #ffffffd6;
+  background-color: rgba(255, 0, 255, 0.15);
+  color: #ffffff;
   padding: 0.5rem 1.9rem;
   font-weight: 500;
   border-radius: 20px;
-  border: 1px solid #363467;
+  border: 1px solid rgba(255, 0, 255, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-tag:hover {
+  background-color: rgba(255, 0, 255, 0.3);
+  border-color: rgba(255, 0, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 0, 255, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -70,8 +82,11 @@
     margin-top: 0rem;
   }
   .about-section h2 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
+    padding-right: 0;
+    text-align: center;
+    white-space: nowrap;
   }
   .about-text {
     font-size: 16px;
@@ -79,10 +94,12 @@
     text-align: justify;
     margin-bottom: 0;
   }
-
+  .about-skills {
+    flex: 1;
+  }
   .about-skills h3 {
     font-size: 19px;
-    padding-left: 3px;
+    padding-left: 3rem;
     margin-top: 0;
   }
   .skills-grid {

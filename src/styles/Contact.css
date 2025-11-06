@@ -13,9 +13,8 @@
 .contact-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #ff66ff;
   margin-bottom: 1.5rem;
-  text-shadow: 0 0 20px rgba(255, 102, 255, 0.3);
+  color: #ffffff;
 }
 
 .contact-text {
@@ -42,7 +41,7 @@
 .card-title {
   font-size: 1.7rem;
   font-weight: 600;
-  color: #b794f6;
+  color: #ffffff;
   margin-bottom: 2.5rem;
 }
 
@@ -70,20 +69,20 @@
   height: 60px;
   min-width: 60px; /* IMPORTANTE: Evita que o círculo encolha */
   border-radius: 50%;
-  background: linear-gradient(135deg, #ba40db, #cc33ff);
+  background: rgba(255, 0, 255, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 5px 15px rgba(255, 102, 255, 0.4);
+  border: 2px solid rgba(255, 0, 255, 0.6);
   transition: all 0.3s ease;
 }
 
 .contact-icon {
-  color: #1e1e28;
+  color: #cfcfdb;
   stroke-width: 2.5;
 }
 .contact-icon-box svg {
-  color: #1e1e28 !important;
+  color: #050505ba !important;
 }
 .contact-item:hover .contact-icon-box {
   transform: scale(1.1);
@@ -107,7 +106,7 @@
 
 .info-value {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: #e5e5e5a7;
   font-weight: 400;
   margin: 0;
 }

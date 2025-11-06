@@ -11,7 +11,7 @@ const About = () => {
           <p className="about-intro">Olá! Me chamo Célia Rocha 👋</p>
           <p>
             Tenho 24 anos e sou {""}
-            <span style={{ color: "#f01cf08d" }}>
+            <span style={{ color: "#ee4dcbe4" }}>
               Desenvolvedora Front-End.
             </span>{" "}
             {""}
@@ -28,7 +28,7 @@ const About = () => {
           através de novos projetos e desafios.
           <p>
             Minha verdadeira paixão está em
-            <span style={{ color: "#f01cf08d" }}>
+            <span style={{ color: "#ee4dcbe4" }}>
               {" "}
               {""}Desenvolver Experiências Digitais
             </span>

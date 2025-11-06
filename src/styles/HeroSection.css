@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   padding: 10rem 2rem 1rem;
-  min-height: 90vh;
+  min-height: 10vh;
 }
 
 .profile-container {
@@ -44,7 +44,7 @@ h1 {
   max-width: 600px;
   margin: 0 auto 2rem;
   line-height: 1.5;
-  color: #f8ececb3;
+  color: #e5e5e5;
 }
 
 .cta-buttons {
@@ -70,15 +70,17 @@ h1 {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #f01cf0cf);
+  background: linear-gradient(90deg, #bf38dacf);
   color: #000000;
   padding: 0.9rem 1.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .btn-secondary {
-  background-color: #28282c;
+  background-color: #3d3d3d;
   color: rgba(255, 255, 255, 0.813);
   padding: 0.9rem 2.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .btn-primary:hover,

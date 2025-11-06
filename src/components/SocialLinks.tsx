@@ -9,15 +9,6 @@ const SocialLinks: React.FC = () => {
 
         <div className="social-icons">
           <a
-            href="https://github.com/celia-rocha"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon-link"
-            aria-label="GitHub"
-          >
-            <Github size={32} />
-          </a>
-          <a
             href="https://www.linkedin.com/in/celia-dev/"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,6 +16,15 @@ const SocialLinks: React.FC = () => {
             aria-label="LinkedIn"
           >
             <Linkedin size={32} />
+          </a>
+          <a
+            href="https://github.com/celia-rocha"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-link"
+            aria-label="GitHub"
+          >
+            <Github size={32} />
           </a>
         </div>
       </div>

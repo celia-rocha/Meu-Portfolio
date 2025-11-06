@@ -14,7 +14,7 @@ const ProjectCard: React.FC<Project> = ({ title, description, link }) => {
         rel="noopener noreferrer"
         className="project-button"
       >
-        ~Ver Projeto~
+        Ver Projeto
       </a>
     </div>
   );
