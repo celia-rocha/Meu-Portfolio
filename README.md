@@ -69,6 +69,6 @@ O projeto estará disponível em `http://localhost:5173/`
 
 ### 💜 Desenvolvido com Dedicação e muito café!! 
 
-[![Site](https://img.shields.io/badge/🌐_Visite_meu_portfólio-ff00ff?style=for-the-badge)](https://celia-c11.github.io/Meu-Portfolio/)
+[![Site](https://img.shields.io/badge/🌐_Visite_meu_portfólio-ff00ff?style=for-the-badge)](https://celia-rocha.github.io/Meu-Portfolio/)
 
 </div>
