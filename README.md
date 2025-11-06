@@ -50,7 +50,7 @@ Este é meu portfólio pessoal, desenvolvido para apresentar minha jornada como 
 ## 🚀 Como Executar Localmente
 ```bash
 # Clone o repositório
-git clone https://github.com/celia-c11/Meu-Portfolio.git
+git clone https://celia-rocha.github.io/Meu-Portfolio/
 
 # Entre na pasta
 cd Meu-Portfolio/portfolio
