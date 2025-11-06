@@ -2,11 +2,7 @@
   
 # ✨ Portfólio - Célia Rocha
 
-### Desenvolvedora Frontend apaixonada por criar experiências digitais incríveis
-
-[![Site](https://img.shields.io/badge/🌐_Acessar_Portfólio-ff00ff?style=for-the-badge)](https://celia-c11.github.io/Meu-Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](SEU_LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/celia-c11)
+[![Site](https://img.shields.io/badge/🌐_Acessar_Portfólio-ff00ff?style=for-the-badge)](https://celia-rocha.github.io/Meu-Portfolio/)
 
 </div>
 
@@ -67,34 +63,11 @@ npm run dev
 ```
 
 O projeto estará disponível em `http://localhost:5173/`
-
----
-
-## 📸 Preview
-
-<div align="center">
-  
-### Desktop
-![Desktop Preview](link-da-imagem-desktop.png)
-
-### Mobile
-![Mobile Preview](link-da-imagem-mobile.png)
-
-</div>
-
----
-
-## 📬 Contato
-
-- 📧 Email: celiarr.neves2@gmail.com
-- 📱 WhatsApp: +55 (47) 988696196
-- 📍 Balneário Camboriú, SC
-
 ---
 
 <div align="center">
 
-### 💜 Desenvolvido com amor por Célia Rocha
+### 💜 Desenvolvido com Dedicação e muito café!! 
 
 [![Site](https://img.shields.io/badge/🌐_Visite_meu_portfólio-ff00ff?style=for-the-badge)](https://celia-c11.github.io/Meu-Portfolio/)
 
