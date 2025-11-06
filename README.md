@@ -61,14 +61,11 @@ npm install
 # Execute o projeto
 npm run dev
 ```
-
-O projeto estará disponível em `http://localhost:5173/`
 ---
 
 <div align="center">
 
 ### 💜 Desenvolvido com Dedicação e muito café!! 
 
-[![Site](https://img.shields.io/badge/🌐_Visite_meu_portfólio-ff00ff?style=for-the-badge)](https://celia-rocha.github.io/Meu-Portfolio/)
 
 </div>
