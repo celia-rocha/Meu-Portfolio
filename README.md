@@ -1,13 +1,101 @@
-# Sobre Meu Portfólio 💖 👩🏻‍💻 🌟 
-
-Este portfólio é meu principal projeto, mostrando minha jornada como desenvolvedora e meu cuidado com cada detalhe. Aqui você encontra:
-
-	•	Apresentação Pessoal: sobre mim e minha trajetória.
-	•	Projetos: destaques com tecnologias usadas.
-	•	Certificados: cursos e conquistas.
-	•	Contato: para colaborações.
+<div align="center">
   
-  🛠️ Tecnologias:
-HTML, CSS, TypeScript, React, Styled Components e Vite
+# ✨ Portfólio - Célia Rocha
 
+### Desenvolvedora Frontend apaixonada por criar experiências digitais incríveis
 
+[![Site](https://img.shields.io/badge/🌐_Acessar_Portfólio-ff00ff?style=for-the-badge)](https://celia-c11.github.io/Meu-Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](SEU_LINKEDIN)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/celia-c11)
+
+</div>
+
+---
+
+## 📖 Sobre o Projeto
+
+Este é meu portfólio pessoal, desenvolvido para apresentar minha jornada como desenvolvedora frontend. O projeto foi construído com foco em design moderno, responsividade e experiência do usuário.
+
+### ✨ Destaques
+
+- 🎨 **Design Moderno** - Interface clean com paleta roxo/rosa elegante
+- 📱 **Totalmente Responsivo** - Adaptado para todos os dispositivos
+- 🎭 **Carousel Customizado** - Navegação suave entre projetos
+- ⚡ **Performance** - Otimizado para carregamento rápido
+- 💜 **Animações Sutis** - Transições e efeitos interativos
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+</div>
+
+---
+
+## 🎯 Funcionalidades
+
+- ✅ Seção Hero com apresentação pessoal
+- ✅ Sobre Mim com tecnologias e habilidades
+- ✅ Carousel de Projetos (customizado sem bibliotecas)
+- ✅ Seção de Contato com links
+- ✅ Redes Sociais integradas
+- ✅ Navegação suave entre seções
+- ✅ Modo responsivo para mobile
+
+---
+
+## 🚀 Como Executar Localmente
+```bash
+# Clone o repositório
+git clone https://github.com/celia-c11/Meu-Portfolio.git
+
+# Entre na pasta
+cd Meu-Portfolio/portfolio
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+O projeto estará disponível em `http://localhost:5173/`
+
+---
+
+## 📸 Preview
+
+<div align="center">
+  
+### Desktop
+![Desktop Preview](link-da-imagem-desktop.png)
+
+### Mobile
+![Mobile Preview](link-da-imagem-mobile.png)
+
+</div>
+
+---
+
+## 📬 Contato
+
+- 📧 Email: celiarr.neves2@gmail.com
+- 📱 WhatsApp: +55 (47) 988696196
+- 📍 Balneário Camboriú, SC
+
+---
+
+<div align="center">
+
+### 💜 Desenvolvido com amor por Célia Rocha
+
+[![Site](https://img.shields.io/badge/🌐_Visite_meu_portfólio-ff00ff?style=for-the-badge)](https://celia-c11.github.io/Meu-Portfolio/)
+
+</div>
