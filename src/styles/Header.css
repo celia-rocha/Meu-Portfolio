@@ -5,25 +5,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem;
-  color: rgb(214, 66, 255);
+  padding: 1.8rem 5rem;
   z-index: 1000;
-  background-color: rgba(67, 21, 77, 0.763);
-  backdrop-filter: blur(20px);
+  background: rgba(45, 9, 59, 0.419);
+  backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--border-glass);
 }
 
 .logo-container h1 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  font-family: Comic Sans MS, Comic Sans, cursive;
   margin: 0;
-  color: #fcf8ff;
-  padding-left: 50px;
+  color: var(--text-main);
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-links ul {
   display: flex;
-  gap: 1.2rem;
+  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -31,42 +33,46 @@
 
 .nav-links a {
   text-decoration: none;
-  font-weight: 600;
-  padding: 0.6rem 2rem;
-  border-radius: 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text-secondary);
   transition: all 0.3s ease;
-  cursor: pointer;
-  background: transparent;
-  color: rgba(255, 255, 255, 0.823);
-  border: 1px solid rgba(255, 255, 255, 0.137);
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-gradient);
+  transition: width 0.3s ease;
 }
 
 .nav-links a:hover {
-  border: 1x solid #ff00ff30;
-  background: rgba(255, 0, 255, 0.1);
-  color: #ffffff;
-  transform: translateY(-2px);
+  color: var(--text-main);
 }
 
-/* --- Código para Mobile --- */
-/* Media query para telas com no máximo 768px de largura */
+.nav-links a:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .header {
-    padding: 1.4rem 1rem;
+    padding: 1rem 1.5rem;
   }
 
   .logo-container h1 {
-    font-size: 1.1rem;
-    padding-left: 1px;
+    font-size: 1.2rem;
   }
 
   .nav-links ul {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .nav-links a {
-    font-size: 0.7rem;
-    padding: 0.6rem 0.8rem;
-    font-weight: 600;
+    font-size: 0.9rem;
   }
 }

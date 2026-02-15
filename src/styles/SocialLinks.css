@@ -1,68 +1,73 @@
 .social-section {
-  padding: 1rem 1rem;
-  max-width: 1200px;
+  padding: 4rem 2rem 8rem;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 /* ========== CARD DAS REDES SOCIAIS ========== */
 .social-card {
-  background: #1c1a2e5c;
+  background: var(--bg-card);
   border-radius: 30px;
-  padding: 1.6rem 1rem;
-  max-width: 900px;
-  margin: 0 auto;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  padding: 3rem;
   text-align: center;
+  border: 1px solid var(--border-glass);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 .social-title {
   font-size: 1.6rem;
   font-weight: 600;
-  color: #ffff;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-main);
+  letter-spacing: 1px;
 }
 
 /* ========== ÍCONES DAS REDES SOCIAIS ========== */
 .social-icons {
   display: flex;
-  gap: 2.3rem;
-  align-items: center;
   justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
 }
 
 .social-icon-link {
-  width: 50px;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 15px;
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.9);
-  transition: all 0.3s ease;
-  text-decoration: none;
-  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  background: var(--bg-glass);
+  border-radius: 18px;
+  color: white;
+  border: 1px solid var(--border-glass);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 /* Remove cor azul dos links */
 .social-icon-link,
 .social-icon-link:visited,
 .social-icon-link:link {
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
 }
 
 .social-icon-link svg {
   color: inherit;
   stroke-width: 2;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 /* Hover genérico - só movimento */
 .social-icon-link:hover {
-  transform: translateY(-5px);
+  background: var(--accent-gradient);
+  border-color: transparent;
+  transform: translateY(-10px) rotate(8deg);
+  box-shadow: 0 10px 30px var(--accent-glow);
+  color: white;
+}
+
+.social-icon-link:hover svg {
+  transform: scale(1.2);
 }
 
 /* GitHub - roxo no hover */

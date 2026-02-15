@@ -1,9 +1,13 @@
 :root {
-  --bg-card: #1c1a2e5c;
-  --accent-purple: #ff00ff;
-  --accent-gradient: linear-gradient(90deg, #ff00ff, #8a2be2);
+  --bg-card: rgba(67, 34, 100, 0.3);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  --border-glass: rgba(255, 255, 255, 0.12);
+  --accent-purple: #e156fda7;
+  --accent-glow: rgba(224, 86, 253, 0.35);
+  --accent-gradient: linear-gradient(135deg, #b642da 0%, #bd44a1 100%);
   --text-main: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-secondary: rgba(255, 255, 255, 0.65);
+  --glass-blur: blur(12px);
 }
 
 * {
@@ -18,8 +22,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background: linear-gradient(220deg, #351043 0%, rgb(99, 19, 86) 100%);
+  font-family: "Outfit", sans-serif;
+  background: linear-gradient(135deg, #3d1050 0%, #6e225f 50%, #2e0b3a 100%);
+  color: var(--text-main);
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;
