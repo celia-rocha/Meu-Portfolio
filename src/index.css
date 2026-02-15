@@ -1,6 +1,9 @@
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 100px; /* Ajuste esse valor conforme a altura do seu header */
+:root {
+  --bg-card: #1c1a2e5c;
+  --accent-purple: #ff00ff;
+  --accent-gradient: linear-gradient(90deg, #ff00ff, #8a2be2);
+  --text-main: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
 }
 
 * {
@@ -9,24 +12,24 @@ html {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(220deg, #351043 0%, rgb(99, 19, 86) 100%);
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;
-
-  /* garante que o gradiente vai cobrir a página inteira */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* Compensa a altura do Header fixo */
 section[id] {
-  scroll-margin-top: 100px; /* Ajuste esse valor conforme a altura do seu header */
+  scroll-margin-top: 100px;
 }
+

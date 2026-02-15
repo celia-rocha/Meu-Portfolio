@@ -10,7 +10,7 @@ const projects: Project[] = [
     id: 1,
     title: "Loja Virtual - Tech Shop 📱 ",
     description:
-      "Projeto de página web para uma loja de eletrônicos, feito com HTML5 e CSS3, focado em design limpo e responsivo.",
+      "Landing page de loja de eletrônicos com catálogo de produtos, newsletter e layout responsivo. Feito com HTML5 e CSS3.",
     link: " https://celia-rocha.github.io/Loja-Eletronica/",
   },
 
@@ -18,7 +18,7 @@ const projects: Project[] = [
     id: 2,
     title: " Tela de Login 🔐",
     description:
-      "Protótipo visual de interface de autenticação, desenvolvido em React e TypeScript, simulando funcionalidades de login de forma interativa e responsiva.",
+      "Interface de login com React Hooks, validação de formulário, loading state, API mockada e componentização. Feito com React e TypeScript.",
     link: "https://celia-rocha.github.io/Tela-Login/",
   },
 
@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: 3,
     title: "Clone do WhatsApp Web 💬 ",
     description:
-      "Interface estática inspirada no WhatsApp Web, criada com HTML e CSS para simular a experiência visual do app.",
+      "Reprodução da interface do WhatsApp Web com lista de conversas, área de chat e design responsivo. Feito com HTML e CSS..",
     link: "https://celia-rocha.github.io/WhatsApp-site/",
   },
 ];

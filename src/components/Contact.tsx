@@ -1,5 +1,5 @@
 import "../styles/Contact.css";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 const Contact: React.FC = () => {
   return (
@@ -27,21 +27,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-        {/* WHATSAPP */}
-        <a
-          href="https://web.whatsapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-item"
-        >
-          <div className="contact-icon-box">
-            <Phone size={24} />
-          </div>
-          <div className="contact-info">
-            <h3 className="info-label">Telefone</h3>
-            <p className="info-value">+55 (47) 988696196</p>
-          </div>
-        </a>
+
 
         {/* LOCALIZAÇÃO */}
         <div className="contact-item">

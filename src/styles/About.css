@@ -1,22 +1,20 @@
 .about-section {
   width: 100%;
-  min-height: calc(54vh - 4rem); /* subtrai o padding vertical */
+  min-height: auto; 
   padding: 2rem 3rem;
   margin: 0;
   text-align: center;
-  background: #1c1a2eae;
-  box-sizing: border-box; /* inclui padding na altura total */
+  background: var(--bg-card);
+  box-sizing: border-box;
   margin-top: 4rem;
 }
 
 .about-section h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
   color: #ffffff;
-
-  padding-right: 50rem;
   white-space: nowrap; /* evita quebra de linha */
 }
 
@@ -25,6 +23,7 @@
   flex-wrap: wrap;
   gap: 3rem;
   text-align: left;
+  align-items: flex-start;
 }
 
 .about-text {
@@ -44,6 +43,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  margin-top: 0;
   color: #ffffff;
   padding-left: 60px;
 }
