@@ -1,5 +1,5 @@
 .social-section {
-  padding: 4rem 2rem 8rem;
+  padding: 2rem 2rem 4rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -61,43 +61,13 @@
 .social-icon-link:hover {
   background: var(--accent-gradient);
   border-color: transparent;
-  transform: translateY(-10px) rotate(8deg);
+  transform: translateY(-5px) rotate(4deg);
   box-shadow: 0 10px 30px var(--accent-glow);
   color: white;
 }
 
 .social-icon-link:hover svg {
-  transform: scale(1.2);
-}
-
-/* GitHub - roxo no hover */
-.social-icon-link:nth-child(1):hover {
-  border-color: #a855f7;
-  box-shadow: 0 8px 20px rgba(168, 85, 247, 0.4);
-}
-
-.social-icon-link:nth-child(1):hover svg {
-  color: #a855f7;
-}
-
-/* LinkedIn - azul no hover */
-.social-icon-link:nth-child(2):hover {
-  border-color: #0077b5;
-  box-shadow: 0 8px 20px rgba(0, 119, 181, 0.4);
-}
-
-.social-icon-link:nth-child(2):hover svg {
-  color: #0077b5;
-}
-
-/* Instagram - rosa/laranja no hover (se você voltar a usar) */
-.social-icon-link:nth-child(3):hover {
-  border-color: #e1306c;
-  box-shadow: 0 8px 20px rgba(225, 48, 108, 0.4);
-}
-
-.social-icon-link:nth-child(3):hover svg {
-  color: #e1306c;
+  transform: scale(1.1);
 }
 
 /* ========== RESPONSIVIDADE ========== */
