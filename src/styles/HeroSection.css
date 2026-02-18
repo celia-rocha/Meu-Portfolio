@@ -117,10 +117,30 @@
 }
 
 @media (max-width: 768px) {
-  .hero-section { padding: 8rem 1.5rem 4rem; }
+  .hero-section { padding: 4rem 0.5rem 3rem; } /* Diminuído de 1rem para 0.5rem */
   .hero-text h1 { font-size: 2.2rem; }
   .profile-pic { width: 140px; height: 140px; }
   .profile-container::after { width: 140px; height: 140px; }
-  .description { font-size: 1.1rem; }
-  .cta-buttons { flex-direction: column; width: 100%; }
+  .description { font-size: 1rem; padding: 0 0.5rem; }
+  
+  .cta-buttons { 
+    flex-direction: row; 
+    width: 100%; 
+    gap: 1rem; /* Aumentado de 0.8rem para 1rem */
+    padding: 0; /* Removido padding lateral aqui */
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    flex: 1; /* Faz os botões dividirem o espaço igualmente */
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .btn-primary, .btn-secondary {
+    padding: 0.8rem 0.5rem;
+    font-size: 0.8rem;
+  }
 }
