@@ -1,10 +1,10 @@
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import SocialLinks from "./components/SocialLinks";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import SocialLinks from "./components/SocialLinks/SocialLinks";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div className="App">

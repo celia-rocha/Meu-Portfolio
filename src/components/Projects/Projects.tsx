@@ -1,6 +1,6 @@
-import "../styles/Projects.css";
-import type { Project } from "../data/projectsData";
-import projectsData from "../data/projectsData";
+import "./Projects.css";
+import type { Project } from "../../data/projectsData";
+import projectsData from "../../data/projectsData";
 import { useState, useEffect } from "react";
 
 const ProjectCard: React.FC<Project> = ({ title, description, link }) => {

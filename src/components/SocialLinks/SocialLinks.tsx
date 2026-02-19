@@ -1,4 +1,4 @@
-import "../styles/SocialLinks.css";
+import "./SocialLinks.css";
 import { Linkedin, Github } from "lucide-react";
 
 const SocialLinks: React.FC = () => {

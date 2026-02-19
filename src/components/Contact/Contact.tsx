@@ -1,4 +1,4 @@
-import "../styles/Contact.css";
+import "./Contact.css";
 import { Mail, MapPin } from "lucide-react";
 
 const Contact: React.FC = () => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import "../styles/Header.css";
+import "./Header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
