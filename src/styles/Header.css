@@ -72,7 +72,7 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 1.5rem;
     justify-content: space-between;
     left: 0;
     right: 0;
