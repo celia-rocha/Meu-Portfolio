@@ -1,19 +1,38 @@
 :root {
-  --bg-card: rgba(67, 34, 100, 0.3);
-  --bg-glass: rgba(255, 255, 255, 0.04);
-  --border-glass: rgba(255, 255, 255, 0.12);
-  --accent-purple: #e156fda7;
-  --accent-glow: rgba(224, 86, 253, 0.35);
-  --accent-gradient: linear-gradient(135deg, #b642da 0%, #bd44a1 100%);
-  --text-main: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.65);
+  /* TEMA ESCURO (Padrão) */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --text-primary: #f0f0f0;
+  --text-secondary: #a0a0a0;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --header-bg: rgba(10, 10, 10, 0.85);
+
+  /* SHARED */
+  --accent-gradient: linear-gradient(135deg, #a855f7, #d946ef, #ec4899);
+  --accent-glow: rgba(138, 43, 226, 0.3);
+  --footer-glow: rgba(168, 85, 247, 0.2);
   --glass-blur: blur(12px);
+  --transition-smooth: all 0.3s ease;
+}
+
+[data-theme="light"] {
+  --bg-primary: #e8e4ec;
+  --bg-secondary: #f0ecf4;
+  --text-primary: #1a1a2e;
+  --text-secondary: #5a5670;
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --header-bg: rgba(232, 228, 236, 0.9);
+  --footer-glow: rgba(168, 85, 247, 0.3);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
 }
 
 html {
@@ -25,19 +44,15 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
-  background: linear-gradient(135deg, #3d1050 0%, #6e225f 50%, #2e0b3a 100%);
-  color: var(--text-main);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   position: relative;
   overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* Compensa a altura do Header fixo */
 section[id] {
   scroll-margin-top: 100px;
 }
-

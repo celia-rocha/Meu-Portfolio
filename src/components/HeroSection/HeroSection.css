@@ -26,14 +26,14 @@
   background: var(--accent-gradient);
   border-radius: 50%;
   filter: blur(40px);
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: -1;
   animation: pulse-glow 4s infinite alternate;
 }
 
 @keyframes pulse-glow {
-  0% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; }
-  100% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.5; }
+  0% { transform: translate(-50%, -50%) scale(1); opacity: 0.2; }
+  100% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.4; }
 }
 
 .profile-pic {
@@ -41,15 +41,16 @@
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--border-glass);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 4px solid var(--border-subtle);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .hero-text h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   letter-spacing: -1px;
+  color: var(--text-primary);
 }
 
 .highlight {
@@ -67,9 +68,9 @@
 }
 
 .description {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   max-width: 650px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 2.5rem;
   line-height: 1.6;
   color: var(--text-secondary);
 }
@@ -88,55 +89,59 @@
   padding: 1rem 2.2rem;
   border-radius: 12px;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: var(--transition-smooth);
   font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary {
   background: var(--accent-gradient);
-  color: white;
+  color: #ffffff;
   border: none;
-  box-shadow: 0 10px 20px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 10px 20px var(--accent-glow);
 }
 
 .btn-secondary {
-  background: var(--bg-glass);
-  color: white;
-  border: 1px solid var(--border-glass);
-  backdrop-filter: var(--glass-blur);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
 }
 
 .btn-primary:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 25px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 15px 30px var(--accent-glow);
+  filter: brightness(1.1);
 }
 
 .btn-secondary:hover {
   transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-primary);
+  border-color: #a855f7;
 }
 
 @media (max-width: 768px) {
   .hero-section { 
-    padding: 9rem 0.5rem 7rem; 
+    padding: 9rem 0.5rem 3rem; 
     min-height: auto; 
   } 
-  .hero-text h1 { font-size: 2.2rem; }
-  .profile-pic { width: 140px; height: 140px; }
-  .profile-container::after { width: 140px; height: 140px; }
-  .description { font-size: 1rem; padding: 0 0.5rem; margin-bottom: 2rem; }
+
+  .hero-text h1 { font-size: 2.22rem; }
+  .profile-pic { width: 150px; height: 150px; }
+  .profile-container::after { width: 150px; height: 150px; }
+  .description { font-size: 1.05rem; margin-bottom: 2rem; }
   
   .cta-buttons { 
     flex-direction: row; 
     width: 100%; 
-    gap: 1rem; /* Aumentado de 0.8rem para 1rem */
-    padding: 0; /* Removido padding lateral aqui */
+    gap: 0.8rem;
   }
 
   .btn-primary, .btn-secondary {
-    padding: 0.8rem 1rem;
+    padding: 0.9rem 1rem;
     font-size: 0.9rem;
-    flex: 1; /* Faz os botões dividirem o espaço igualmente */
+    flex: 1;
     white-space: nowrap;
   }
 }
