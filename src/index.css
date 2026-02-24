@@ -1,11 +1,11 @@
 :root {
   /* TEMA ESCURO (Padrão) */
-  --bg-primary: #0a0a0a;
+  --bg-primary: #0a0a0afa;
   --bg-secondary: #1a1a1a;
   --text-primary: #f0f0f0;
   --text-secondary: #a0a0a0;
   --border-subtle: rgba(255, 255, 255, 0.06);
-  --header-bg: rgba(10, 10, 10, 0.85);
+  --header-bg: rgba(10, 10, 10, 0.884);
 
   /* SHARED */
   --accent-gradient: linear-gradient(135deg, #a855f7, #d946ef, #ec4899);
@@ -15,20 +15,14 @@
   --transition-smooth: all 0.3s ease;
 }
 
-[data-theme="light"] {
-  --bg-primary: #e8e4ec;
-  --bg-secondary: #f0ecf4;
-  --text-primary: #1a1a2e;
-  --text-secondary: #5a5670;
-  --border-subtle: rgba(0, 0, 0, 0.08);
-  --header-bg: rgba(232, 228, 236, 0.9);
-  --footer-glow: rgba(168, 85, 247, 0.3);
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
 }
 
 html {
@@ -46,15 +40,6 @@ body {
   overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
-  /* Transição suave de cores e fundos */
-  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
-}
-
-/* Fix para Safari mobile: desabilita transições durante a troca para evitar ghosting/bugs */
-.theme-switching,
-.theme-switching * {
-  transition: none !important;
-  animation-duration: 0s !important;
 }
 
 /* Compensa a altura do Header fixo */

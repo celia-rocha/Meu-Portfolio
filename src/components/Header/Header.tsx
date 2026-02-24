@@ -1,33 +1,12 @@
-import { useState, useEffect } from "react";
-import { Menu, X, Moon, Sun } from "lucide-react";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 import "./Header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(true);
-
-  // Efeito para aplicar o tema no HTML
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.setAttribute("data-theme", "dark");
-    } else {
-      document.documentElement.setAttribute("data-theme", "light");
-    }
-  }, [isDarkMode]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  };
-
-  const toggleTheme = () => {
-    // Força repaint no mobile (Safari/Chrome) para evitar cores invertidas
-    document.body.classList.add("theme-switching");
-    
-    setIsDarkMode(!isDarkMode);
-
-    setTimeout(() => {
-      document.body.classList.remove("theme-switching");
-    }, 500);
   };
 
   return (
@@ -55,14 +34,6 @@ const Header = () => {
         </nav>
 
         <div className="header-actions">
-          <button 
-            className="theme-toggle" 
-            onClick={toggleTheme} 
-            aria-label="Trocar tema"
-          >
-            {isDarkMode ? <Moon size={22} /> : <Sun size={22} />}
-          </button>
-
           <button className="menu-toggle" onClick={toggleMenu} aria-label="Abrir menu">
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>

@@ -34,9 +34,6 @@
   transition: var(--transition-smooth);
 }
 
-[data-theme="light"] .contact-card {
-  border-color: #a955f779;;
-}
 
 .card-title {
   font-size: 1.6rem;

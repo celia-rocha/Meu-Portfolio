@@ -16,10 +16,6 @@
   transition: var(--transition-smooth);
 }
 
-[data-theme="light"] .social-card {
-  border-color: #a955f779;
-}
-
 
 .social-title {
   font-size: 1.5rem;
