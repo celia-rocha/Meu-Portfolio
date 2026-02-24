@@ -10,8 +10,13 @@
   z-index: 1000;
   background: var(--header-bg);
   backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur); /* Suporte Safari */
   border-bottom: 1px solid var(--border-subtle);
   box-sizing: border-box;
+  /* Fix para bug de repaint no Safari iOS ao trocar tema */
+  transform: translateZ(0);
+  will-change: transform, background-color, border-color;
+  transition: background-color 0.4s ease, border-color 0.4s ease;
 } 
 
 .logo-container h1 {
@@ -137,12 +142,16 @@
     height: 100vh;
     background: var(--bg-primary);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); /* Suporte Safari */
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 1000;
     border-left: 1px solid var(--border-subtle);
+    /* Fix para Safari iOS */
+    transform: translateZ(0);
+    will-change: transform, background-color;
   }
 
   .nav-links.active {

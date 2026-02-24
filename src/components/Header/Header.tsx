@@ -20,7 +20,14 @@ const Header = () => {
   };
 
   const toggleTheme = () => {
+    // Força repaint no mobile (Safari/Chrome) para evitar cores invertidas
+    document.body.classList.add("theme-switching");
+    
     setIsDarkMode(!isDarkMode);
+
+    setTimeout(() => {
+      document.body.classList.remove("theme-switching");
+    }, 500);
   };
 
   return (
