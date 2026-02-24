@@ -96,10 +96,18 @@
 
 @media (max-width: 768px) {
   .about-section { padding: 1rem 1.5rem; }
-  .about-content { padding: 2.5rem 1.5rem; gap: 2.5rem; border-radius: 24px; }
+  .about-content { 
+    padding: 2.5rem 1.5rem; 
+    gap: 2.5rem; 
+    border-radius: 24px;
+    flex-direction: column; /* FORÇA O EMPILHAMENTO NO MOBILE */
+  }
   .about-text h2 { font-size: 1.8rem; }
   .about-intro { font-size: 1.2rem; }
-  .about-text p { font-size: 1rem; }
+  .about-text p { 
+    font-size: 1rem; 
+    text-align: left; /* Melhora a leitura em telas pequenas */
+  }
   
   .skills-grid { 
     display: grid;
