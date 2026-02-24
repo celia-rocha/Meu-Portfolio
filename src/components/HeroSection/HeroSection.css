@@ -5,6 +5,7 @@
   text-align: center;
   padding: 10rem 2rem 2rem;
   min-height: 100vh;
+  min-height: 100dvh; /* Altura real disponível no iPhone */
   justify-content: center;
 }
 
@@ -123,8 +124,8 @@
 
 @media (max-width: 768px) {
   .hero-section { 
-    padding: 9rem 0.5rem 3rem; 
-    min-height: auto; 
+    padding: calc(env(safe-area-inset-top) + 8rem) 1rem 3rem; 
+    min-height: 100dvh; 
   } 
 
   .hero-text h1 { font-size: 2.22rem; }
