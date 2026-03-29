@@ -29,6 +29,14 @@ const projects: Project[] = [
       "Reprodução da interface do WhatsApp Web com lista de conversas, área de chat e design responsivo. Feito com HTML e CSS..",
     link: "https://celia-rocha.github.io/WhatsApp-site/",
   },
+  
+  {
+    id: 4,
+    title: "Login Pages ✨",
+    description:
+      "Interface de autenticação moderna com efeito Glassmorphism, design responsivo e animações suaves. Feito com React e Tailwind CSS v4.",
+    link: "https://celia-rocha.github.io/login-pages/",
+  },
 ];
 
 export default projects;
