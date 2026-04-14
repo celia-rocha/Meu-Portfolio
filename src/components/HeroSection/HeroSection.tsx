@@ -1,5 +1,6 @@
 import "./HeroSection.css";
 import profile from "../../assets/foto.jpg";
+import { Download } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -13,7 +14,7 @@ const HeroSection = () => {
       </div>
       <div className="hero-text">
         <h1>
-          Olá, eu sou <br />
+          Olá, sou Célia Rocha <br />
           <span className="highlight">Desenvolvedora Frontend</span>
         </h1>
         <p className="description">
@@ -22,11 +23,16 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="cta-buttons">
+        <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="btn-secondary">
+            <Download size={18} className="btn-icon" /> Baixar CV
+          </button>
+        </a>
         <a href="#sobre">
           <button className="btn-secondary">Sobre Mim</button>
         </a>
         <a href="#projetos">
-          <button className="btn-primary">Ver Meus Projetos</button>
+          <button className="btn-primary">Ver Projetos</button>
         </a>
       </div>
     </section>

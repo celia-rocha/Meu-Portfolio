@@ -1,5 +1,5 @@
 .social-section {
-  padding: 1rem 2rem 4rem;
+  padding: 1rem 2rem 2rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -62,7 +62,7 @@
 /* ========== RESPONSIVIDADE ========== */
 @media (max-width: 768px) {
   .social-section {
-    padding: 0.5rem 1.1rem 3rem;
+    padding: 0.5rem 1.1rem 1.5rem;
   }
 
   .social-card {
