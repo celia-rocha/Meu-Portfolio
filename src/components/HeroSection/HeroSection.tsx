@@ -23,7 +23,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="cta-buttons">
-        <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="./curriculo.pdf" target="_blank" rel="noopener noreferrer">
           <button className="btn-secondary">
             <Download size={18} className="btn-icon" /> Baixar CV
           </button>
