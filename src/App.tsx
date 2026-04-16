@@ -3,7 +3,6 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import SocialLinks from "./components/SocialLinks/SocialLinks";
 import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
-      <SocialLinks />
       <Footer />
     </div>
   );

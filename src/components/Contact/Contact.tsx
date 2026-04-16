@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Linkedin, Github } from "lucide-react";
 
 const Contact: React.FC = () => {
   return (
@@ -27,8 +27,6 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-
-
         {/* LOCALIZAÇÃO */}
         <div className="contact-item">
           <div className="contact-icon-box">
@@ -38,6 +36,43 @@ const Contact: React.FC = () => {
             <h3 className="info-label">Localização</h3>
             <p className="info-value">Balneário Camburiú</p>
           </div>
+        </div>
+
+        {/* REDES SOCIAIS */}
+        <h2 className="card-title" style={{ marginTop: "3rem" }}>Redes Sociais</h2>
+
+        <div className="social-grid">
+          {/* LINKEDIN */}
+          <a
+            href="https://www.linkedin.com/in/celia-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-item"
+          >
+            <div className="contact-icon-box">
+              <Linkedin size={24} />
+            </div>
+            <div className="contact-info">
+              <h3 className="info-label">LinkedIn</h3>
+              <p className="info-value">/in/celia-dev</p>
+            </div>
+          </a>
+
+          {/* GITHUB */}
+          <a
+            href="https://github.com/celia-rocha"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-item"
+          >
+            <div className="contact-icon-box">
+              <Github size={24} />
+            </div>
+            <div className="contact-info">
+              <h3 className="info-label">GitHub</h3>
+              <p className="info-value">/celia-rocha</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
