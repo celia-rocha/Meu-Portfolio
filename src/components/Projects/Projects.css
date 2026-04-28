@@ -7,9 +7,20 @@
 .section-title {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-weight: 700;
   color: var(--text-primary);
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 }
 
 /* CAROUSEL STYLES */
@@ -103,24 +114,59 @@
   margin-bottom: 2.5rem;
 }
 
+.project-buttons {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: auto;
+}
+
 .project-button {
-  display: inline-block;
-  padding: 0.9rem 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.8rem;
   background: var(--accent-gradient);
   color: #ffffff;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   box-shadow: 0 4px 12px var(--accent-glow);
   transition: var(--transition-smooth);
+  flex: 1;
+  white-space: nowrap;
 }
 
 .project-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px var(--accent-glow);
   filter: brightness(1.1);
+}
+
+.project-github-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 10px;
+  background: rgba(168, 85, 247, 0.08);
+  color: #e9d5ff;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+  flex: 1;
+  white-space: nowrap;
+}
+
+.project-github-button:hover {
+  background: rgba(168, 85, 247, 0.15);
+  color: #ffffff;
+  border-color: rgba(168, 85, 247, 0.4);
+  transform: translateY(-3px);
 }
 
 /* RESPONSIVE */

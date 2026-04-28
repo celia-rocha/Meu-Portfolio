@@ -18,8 +18,9 @@ const HeroSection = () => {
           <span className="highlight">Desenvolvedora Frontend</span>
         </h1>
         <p className="description">
-          Apaixonada pelo processo de aprendizado e por transformar meus
-          conhecimentos em códigos que criam experiências digitais incríveis.
+          Transformando lógica e criatividade em telas reais. Minha jornada no
+          Front-End Junior é movida pela dedicação diária em criar interfaces
+          que funcionam bem e entregam uma ótima experiência.
         </p>
       </div>
       <div className="cta-buttons">

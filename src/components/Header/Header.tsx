@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <h1>Meu Portfólio ✨</h1>
+        <h1 className="logo-text">{`<Célia/>`}</h1>
       </div>
 
       <div className="header-right">

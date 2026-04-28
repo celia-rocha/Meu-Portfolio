@@ -3,19 +3,30 @@ import type { Project } from "../../data/projectsData";
 import projectsData from "../../data/projectsData";
 import { useState, useEffect } from "react";
 
-const ProjectCard: React.FC<Project> = ({ title, description, link }) => {
+const ProjectCard: React.FC<Project> = ({ title, description, link, githubLink }) => {
   return (
     <div className="project-card">
       <h3 className="project-title">{title}</h3>
       <p className="project-description">{description}</p>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="project-button"
-      >
-        Ver Projeto
-      </a>
+      
+      <div className="project-buttons">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-button"
+        >
+          Demo
+        </a>
+        <a
+          href={githubLink || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-github-button"
+        >
+          GitHub
+        </a>
+      </div>
     </div>
   );
 };
@@ -57,7 +68,11 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projetos" className="projects-section">
-      <h2 className="section-title">Projetos:</h2>
+      <h2 className="section-title">Meus Projetos</h2>
+      <p className="section-subtitle">
+        Uma vitrine das aplicações que construí. Cada projeto reflete o foco que
+        carrego no meu dia a dia, com dedicação e atenção aos detalhes.
+      </p>
       <div className="carousel-wrapper">
         <button
           className="carousel-btn prev"
@@ -83,6 +98,7 @@ const Projects: React.FC = () => {
                   title={project.title}
                   description={project.description}
                   link={project.link}
+                  githubLink={project.githubLink}
                 />
               </div>
             ))}

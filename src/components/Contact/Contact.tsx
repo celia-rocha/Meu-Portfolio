@@ -7,9 +7,7 @@ const Contact: React.FC = () => {
       <div className="contact-header">
         <h1 className="contact-title">Vamos Conversar?</h1>
         <p className="contact-text">
-          Estou sempre aberta a aprender, colaborar e participar de novos
-          projetos. Se quiser trocar ideias ou compartilhar oportunidades, entre
-          em contato!
+          Atualmente, estou disponível para oportunidades de emprego, projetos freelance e colaborações. Se tiver uma proposta ou apenas quiser trocar uma ideia, me manda uma mensagem!
         </p>
       </div>
 
